@@ -1,4 +1,4 @@
-# Creating a sequential model through hyperparameter tuning for classifying fashion product images
+# Creating a custom sequential model through hyperparameter tuning for classifying fashion product images
 
 
 ## Non-technical explanation of the project
