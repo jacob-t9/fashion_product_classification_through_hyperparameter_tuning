@@ -12,11 +12,11 @@ The dataset utilised for this project is Fashion MNIST, a popular benchmark data
 
 ## Model
 
-This project constructs a custom Sequential model for this task. This Sequential model is a stack of one flattened input layer and three dense layers the last of which is the output layer. The first two dense layers' architecture, including the number of neurons and activation functions, is determined through hyperparameter tuning. The model is then compiled using an optimized configuration, which includes an optimizer type and learning rate value that are both determined through hyperparameter tuning. The goal is to find the most effective combination of these hyperparameters for accurate classification.
+This project constructs a custom Sequential model using Keras tuner for this task. This Sequential model is a stack of one flattened input layer and three dense layers the last of which is the output layer. The first two dense layers' architecture, including the number of neurons and activation functions, is determined through hyperparameter tuning. The model is then compiled using an optimized configuration, which includes an optimizer type and learning rate value that are both determined through hyperparameter tuning. The goal is to find the most effective combination of these hyperparameters for accurate classification.
 
 ## Hyperparameter Optimisation
 
-The following hyperparameters are tuned:
+The following hyperparameters are tuned using Keras tuner:
 
 Dense Layer Sizes: The number of neurons (units) in each of the three dense layers is a critical factor affecting the model's capacity to learn complex patterns. Through hyperparameter tuning, different configurations are explored for these layer sizes to determine the optimal combination.
 
