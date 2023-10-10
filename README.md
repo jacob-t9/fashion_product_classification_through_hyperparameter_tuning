@@ -7,7 +7,7 @@ This project focuses on improving the accuracy of a computer program designed to
 
 ## Data
 
-The dataset utilized for this project is Fashion MNIST, a popular benchmark dataset in the field of computer vision. Fashion MNIST consists of grayscale images of fashion items, each belonging to one of ten categories, including items like T-shirts, dresses, and shoes.
+The dataset utilised for this project is Fashion MNIST, a popular benchmark dataset in the field of computer vision. Fashion MNIST consists of grayscale images of fashion items, each belonging to one of ten categories, including items like T-shirts, dresses, and shoes.
 
 
 ## Model
