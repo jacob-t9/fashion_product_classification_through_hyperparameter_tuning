@@ -1,4 +1,4 @@
-# Datasheet Template
+# Datasheet
 
 ## Motivation
 
