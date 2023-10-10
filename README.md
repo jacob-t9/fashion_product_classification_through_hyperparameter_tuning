@@ -3,7 +3,7 @@
 
 ## Non-technical explanation of the project
 
-This project focuses on improving the accuracy of a computer program designed to classify fashion product images, such as clothing. The goal is to enhance the program's ability to distinguish between various fashion items by fine-tuning key parameters, including the size of input layers, choice of activation functions, optimizer type and the learning rate of the optimizer. The primary objective is to determine the optimal configuration for these parameters, enabling more effective recognition of fashion products within images. This project has practical applications in e-commerce for accurate product categorization and recommendation, aiding fashion designers and retailers in efficiently organizing their product catalogue.
+This project focuses on improving the accuracy of a computer program designed to classify fashion product images, such as clothing. The goal is to enhance the program's ability to distinguish between various fashion items by fine-tuning key parameters, including the size of input layers, choice of activation functions, optimizer type and the learning rate of the optimizer. The primary objective is to determine the optimal configuration for these parameters, enabling more effective recognition of fashion products within images. This project has practical applications in e-commerce for accurate product categorization and recommendation, aiding fashion designers and retailers in efficiently organizing their product catalogues.
 
 ## Data
 
@@ -12,7 +12,7 @@ The dataset utilised for this project is Fashion MNIST, a popular benchmark data
 
 ## Model
 
-This project constructs a custom Sequential model for this task. This Sequential model is a stack of one flattened input layer and four dense layers the last of which is the output layer. The first three dense layer's architecture, including the number of neurons and activation functions, is determined through hyperparameter tuning. The goal is to find the most effective combination of these hyperparameters for accurate classification.
+This project constructs a custom Sequential model for this task. This Sequential model is a stack of one flattened input layer and three dense layers the last of which is the output layer. The first three dense layers' architecture, including the number of neurons and activation functions, is determined through hyperparameter tuning. The goal is to find the most effective combination of these hyperparameters for accurate classification.
 
 ## Hyperparameter Optimisation
 
