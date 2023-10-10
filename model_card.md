@@ -37,11 +37,11 @@ During the hyperparameter tuning process, the model configuration performance is
 
 Once the best parameters have been found we create a new model with those parameters called best model, which is then trained over the training data and evaluated on unseen test data. Here's the performance of the best model during its training process, which include the metrics: training accuracy, validation accuracy, training loss, and validation loss.
 
-!screenshot[loss_accuracy_for_training_bestmodel.png]
+![Screenshot](loss_accuracy_for_training_bestmodel.png)
 
 Once the best model is trained, we evaluate its performance on the unseen test data by measuring its accuracy, precision, recall, and F1-Score across the ten different classes in the Fashion MNIST dataset.
 
-!screenshot[model_results_on_test_data.png]
+![Screenshot](model_results_on_test_data.png)
 
 
 ## Limitations
