@@ -35,7 +35,7 @@ Compile and Metrics: After defining the architecture, the model is compiled usin
 
 During the hyperparameter tuning process, the model configuration performance is measured on validation accuracy. Once the trials have finished the best parameters for the model are chosen from the trial that achieved the highest validation accuracy. 
 
-Once the best parameters have been found we create a new model with those parameters called best model, which is then trained over the training data and evaluated on unseen test data. Here's the performance of the best model during its training process, which include the metrics: training accuracy, validation accuracy, training loss, and validation loss.
+Once the best parameters have been found we create a new model with those parameters called best model, which is then trained over the training data and evaluated on unseen test data. Here's the performance of the best model during its training process, which includes the metrics: training accuracy, validation accuracy, training loss, and validation loss.
 
 ![Screenshot](loss_accuracy_for_training_bestmodel.png)
 
@@ -50,4 +50,12 @@ While the model excels in classifying fashion products, it may face challenges w
 
 ## Trade-offs
 
-Outline any trade-offs of your model, such as any circumstances where the model exhibits performance issues. 
+Accuracy vs. Speed Trade-off:
+
+Trade-Off: Increasing model accuracy comes at the cost of longer inference times.
+Circumstances: In use cases where real-time predictions are required, a faster but slightly less accurate model might be preferred. Conversely, for applications where accuracy is the priority and latency is less critical, a slower but more accurate model could be chosen.
+
+Model Complexity vs. Resource Consumption:
+
+Trade-Off: Tuning a larger number of parameters would require more computational resources.
+Circumstances: In resource-constrained environments, such as edge devices or mobile applications, a simpler and smaller model might be chosen to balance accuracy and resource consumption.
