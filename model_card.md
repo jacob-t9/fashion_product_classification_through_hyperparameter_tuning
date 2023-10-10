@@ -39,7 +39,7 @@ Once the best parameters have been found we create a new model with those parame
 
 ![Screenshot](loss_accuracy_for_training_bestmodel.png)
 
-Once the best model is trained, we evaluate its performance on the unseen test data by measuring its accuracy and loss on the test data. With the best model we managed to achieve an accuracy of 88.16% and a loss of 0.3318. We then measure the accuracy, precision, recall, and F1-Score across the ten different classes in the Fashion MNIST dataset.
+Once the best model is trained, we first evaluate its performance on the unseen test data by measuring its accuracy and loss on the test data, which was an accuracy of 88.16% and a loss of 0.3318. Then we measure the accuracy, precision, recall, and F1-Score across the ten different classes in the Fashion MNIST dataset.
 
 ![Screenshot](model_results_on_test_data.png)
 
