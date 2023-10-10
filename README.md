@@ -29,7 +29,7 @@ Optimizer Type: Different optimization algorithms, including Stochastic Gradient
 By systematically exploring and optimizing these hyperparameters, the project aims to create a custom Sequential model that excels in classifying fashion product images within the Fashion MNIST dataset.
 
 ## Results
-Here are the results of the best model found by the hyperparameter tuning process on the unseen test data. The results include the accuracy, precision, recall, and F1-Score across the 10 different classes in the Fashion MNIST dataset.
+The best model found through the hyperparameter tuning method managed to achieve an accuracy of 89.15% on unseen test data, here is a breakdown of these results including the accuracy, precision, recall, and F1-Score across the 10 different classes in the Fashion MNIST dataset.
 
 ![Screenshot](model_results_on_test_data.png)
 
