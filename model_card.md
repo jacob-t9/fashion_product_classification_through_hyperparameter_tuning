@@ -39,7 +39,7 @@ Once the best parameters have been found a new model with those parameters is cr
 
 ![Screenshot](loss_accuracy_for_training_bestmodel.png)
 
-Once the best model is trained, I first evaluated its performance on the unseen test data by measuring its accuracy, which was an accuracy of 89.15%. Then I measured the accuracy, precision, recall, and F1-Score across the ten different classes in the Fashion MNIST dataset.
+Once the best model is trained, I first evaluated its performance on the unseen test data by measuring its accuracy, which was an accuracy of 88.25%. Then I measured the accuracy, precision, recall, and F1-Score across the ten different classes in the Fashion MNIST dataset.
 
 ![Screenshot](model_results_on_test_data.png)
 
